@@ -6,6 +6,7 @@ require "wrap_words_around_lines/version"
 Gem::Specification.new do |spec|
   spec.name          = "wrap_words_around_lines"
   spec.version       = WrapWordsAroundLines::VERSION
+  spec.executables   << "wrap_words_around_lines"
   spec.authors       = ["Emma Corbett"]
   spec.email         = ["emma@madetech.com"]
 
