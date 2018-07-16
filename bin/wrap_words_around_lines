@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'wrap_words_around_lines'
-
-limit = ARGV[0].to_s
-puts WrapWordsAroundLines::wrap(ARGV[0])
