@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Emma Corbett"]
   spec.email         = ["emma@madetech.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Splits a long list of words into lines of a specified length"
+  spec.description   = "Splits one line into many with a maximum length. It will split at the end of a word where possible. Default line length is 20"
+  spec.homepage      = "https://github.com/elcorbs/words_wrapped_around_lines"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
